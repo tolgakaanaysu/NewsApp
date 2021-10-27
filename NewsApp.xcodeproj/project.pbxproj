@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		781474632729805700D22F6B /* WebViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781474622729805700D22F6B /* WebViewService.swift */; };
 		781474652729892E00D22F6B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781474642729892E00D22F6B /* WebView.swift */; };
-		7831CDED272A0BC90013DB61 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7831CDEC272A0BC90013DB61 /* Info.plist */; };
-		787BC5A4272A036500C7A43F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787BC5A3272A036500C7A43F /* Images.xcassets */; };
 		788C6B6B272427B300CFE0CB /* NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6A272427B300CFE0CB /* NewsApp.swift */; };
 		788C6B6D272427B300CFE0CB /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6C272427B300CFE0CB /* News.swift */; };
-		788C6B72272427B700CFE0CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C6B71272427B700CFE0CB /* Preview Assets.xcassets */; };
 		788CBD9827273E59004D9AD6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CBD9727273E59004D9AD6 /* NetworkManager.swift */; };
 		78CF340B27251B92006082F6 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF340A27251B92006082F6 /* SearchButton.swift */; };
 		78CF340D27251BDE006082F6 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF340C27251BDE006082F6 /* SearchTextField.swift */; };
@@ -180,7 +177,6 @@
 				E0DECA130CA3C0D6418946AA /* [CP] Check Pods Manifest.lock */,
 				788C6B63272427B300CFE0CB /* Sources */,
 				788C6B64272427B300CFE0CB /* Frameworks */,
-				788C6B65272427B300CFE0CB /* Resources */,
 				AA773F70AE4DF2F57225A3C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -227,19 +223,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		788C6B65272427B300CFE0CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				787BC5A4272A036500C7A43F /* Images.xcassets in Resources */,
-				788C6B72272427B700CFE0CB /* Preview Assets.xcassets in Resources */,
-				7831CDED272A0BC90013DB61 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		AA773F70AE4DF2F57225A3C0 /* [CP] Embed Pods Frameworks */ = {
