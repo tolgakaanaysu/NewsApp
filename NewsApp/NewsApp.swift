@@ -1,5 +1,5 @@
 //
-//  NewsAppApp.swift
+//  NewsApp.swift
 //  NewsApp
 //
 //  Created by Tolga Kağan Aysu on 23.10.2021.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct NewsAppApp: App {
+struct NewsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
