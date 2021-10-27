@@ -125,8 +125,8 @@
 				788C6B6C272427B300CFE0CB /* News.swift */,
 				78CF341F2726D394006082F6 /* Details.swift */,
 				781474642729892E00D22F6B /* WebView.swift */,
-				78CF341827269CD0006082F6 /* ListView */,
-				78CF341027251F61006082F6 /* NewsView */,
+				78CF341827269CD0006082F6 /* ListViewHelper */,
+				78CF341027251F61006082F6 /* NewsViewHelper */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,23 +139,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		78CF341027251F61006082F6 /* NewsView */ = {
+		78CF341027251F61006082F6 /* NewsViewHelper */ = {
 			isa = PBXGroup;
 			children = (
 				78CF340A27251B92006082F6 /* SearchButton.swift */,
 				78CF340C27251BDE006082F6 /* SearchTextField.swift */,
 				78CF340E27251C03006082F6 /* CancelButton.swift */,
 			);
-			path = NewsView;
+			path = NewsViewHelper;
 			sourceTree = "<group>";
 		};
-		78CF341827269CD0006082F6 /* ListView */ = {
+		78CF341827269CD0006082F6 /* ListViewHelper */ = {
 			isa = PBXGroup;
 			children = (
 				78CF341B27269E31006082F6 /* ListView.swift */,
 				78CF341927269D25006082F6 /* Row.swift */,
 			);
-			path = ListView;
+			path = ListViewHelper;
 			sourceTree = "<group>";
 		};
 		C1D5DD82544B8ABBB9B21BFB /* Pods */ = {
