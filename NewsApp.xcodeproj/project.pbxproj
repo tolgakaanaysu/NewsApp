@@ -91,7 +91,6 @@
 		788C6B5E272427B300CFE0CB = {
 			isa = PBXGroup;
 			children = (
-				781474682729FD3A00D22F6B /* Other */,
 				788C6B69272427B300CFE0CB /* NewsApp */,
 				C1D5DD82544B8ABBB9B21BFB /* Pods */,
 				085F3579D629EBD8383CB6A2 /* Frameworks */,
@@ -112,6 +111,7 @@
 		788C6B69272427B300CFE0CB /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				781474682729FD3A00D22F6B /* Other */,
 				788C6B6A272427B300CFE0CB /* NewsApp.swift */,
 				781474612729402500D22F6B /* WebServices */,
 				788C6B7A2724297800CFE0CB /* Model */,
