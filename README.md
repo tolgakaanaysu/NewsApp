@@ -1,7 +1,7 @@
-Used Framework
+Framework
 - SwiftUI
 
-Used Libary
+Libary
 - Alamofire
 - SwiftyJSON
 - Kingfisher
