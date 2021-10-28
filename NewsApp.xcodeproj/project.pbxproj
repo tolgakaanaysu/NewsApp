@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		781474632729805700D22F6B /* WebViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781474622729805700D22F6B /* WebViewService.swift */; };
 		781474652729892E00D22F6B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781474642729892E00D22F6B /* WebView.swift */; };
+		7825EFC2272AFE510070ACC6 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7825EFC1272AFE510070ACC6 /* FavoriteButton.swift */; };
+		7825EFC4272B03460070ACC6 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7825EFC3272B03460070ACC6 /* ShareButton.swift */; };
 		788C6B6B272427B300CFE0CB /* NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6A272427B300CFE0CB /* NewsApp.swift */; };
 		788C6B6D272427B300CFE0CB /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6C272427B300CFE0CB /* News.swift */; };
-		788CBD9827273E59004D9AD6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CBD9727273E59004D9AD6 /* NetworkManager.swift */; };
+		788CBD9827273E59004D9AD6 /* getData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CBD9727273E59004D9AD6 /* getData.swift */; };
 		78CF340B27251B92006082F6 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF340A27251B92006082F6 /* SearchButton.swift */; };
 		78CF340D27251BDE006082F6 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF340C27251BDE006082F6 /* SearchTextField.swift */; };
 		78CF340F27251C03006082F6 /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF340E27251C03006082F6 /* CancelButton.swift */; };
@@ -28,13 +30,15 @@
 		0F12BA680102FDF790A9F6A7 /* Pods-NewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.release.xcconfig"; path = "Target Support Files/Pods-NewsApp/Pods-NewsApp.release.xcconfig"; sourceTree = "<group>"; };
 		781474622729805700D22F6B /* WebViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewService.swift; sourceTree = "<group>"; };
 		781474642729892E00D22F6B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		7825EFC1272AFE510070ACC6 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		7825EFC3272B03460070ACC6 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 		7831CDEC272A0BC90013DB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		787BC5A3272A036500C7A43F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		788C6B67272427B300CFE0CB /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C6B6A272427B300CFE0CB /* NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp.swift; sourceTree = "<group>"; };
 		788C6B6C272427B300CFE0CB /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 1; };
 		788C6B71272427B700CFE0CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		788CBD9727273E59004D9AD6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		788CBD9727273E59004D9AD6 /* getData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getData.swift; sourceTree = "<group>"; };
 		78CF340A27251B92006082F6 /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
 		78CF340C27251BDE006082F6 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		78CF340E27251C03006082F6 /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
@@ -43,7 +47,7 @@
 		78CF34162725A6A3006082F6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		78CF341927269D25006082F6 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		78CF341B27269E31006082F6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		78CF341F2726D394006082F6 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		78CF341F2726D394006082F6 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; usesTabs = 1; };
 		78D83127F4E9A8EF0FDAE82C /* Pods-NewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.debug.xcconfig"; path = "Target Support Files/Pods-NewsApp/Pods-NewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ADE552D74E667A23054F1F6F /* Pods_NewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,10 +75,19 @@
 		781474612729402500D22F6B /* WebServices */ = {
 			isa = PBXGroup;
 			children = (
-				788CBD9727273E59004D9AD6 /* NetworkManager.swift */,
+				788CBD9727273E59004D9AD6 /* getData.swift */,
 				781474622729805700D22F6B /* WebViewService.swift */,
 			);
 			path = WebServices;
+			sourceTree = "<group>";
+		};
+		7825EFC5272B03A50070ACC6 /* DetailsViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				7825EFC1272AFE510070ACC6 /* FavoriteButton.swift */,
+				7825EFC3272B03460070ACC6 /* ShareButton.swift */,
+			);
+			path = DetailsViewHelper;
 			sourceTree = "<group>";
 		};
 		788C6B5E272427B300CFE0CB = {
@@ -98,13 +111,13 @@
 		788C6B69272427B300CFE0CB /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				787BC5A3272A036500C7A43F /* Images.xcassets */,
 				788C6B68272427B300CFE0CB /* Products */,
 				788C6B70272427B700CFE0CB /* Preview Content */,
 				788C6B6A272427B300CFE0CB /* NewsApp.swift */,
 				781474612729402500D22F6B /* WebServices */,
 				788C6B7A2724297800CFE0CB /* Model */,
 				788C6B792724297100CFE0CB /* View */,
-				787BC5A3272A036500C7A43F /* Images.xcassets */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -125,8 +138,9 @@
 				788C6B6C272427B300CFE0CB /* News.swift */,
 				78CF341F2726D394006082F6 /* Details.swift */,
 				781474642729892E00D22F6B /* WebView.swift */,
-				78CF341827269CD0006082F6 /* ListViewHelper */,
 				78CF341027251F61006082F6 /* NewsViewHelper */,
+				78CF341827269CD0006082F6 /* ListViewHelper */,
+				7825EFC5272B03A50070ACC6 /* DetailsViewHelper */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -271,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788CBD9827273E59004D9AD6 /* NetworkManager.swift in Sources */,
+				788CBD9827273E59004D9AD6 /* getData.swift in Sources */,
 				788C6B6D272427B300CFE0CB /* News.swift in Sources */,
+				7825EFC4272B03460070ACC6 /* ShareButton.swift in Sources */,
 				78CF341A27269D25006082F6 /* Row.swift in Sources */,
+				7825EFC2272AFE510070ACC6 /* FavoriteButton.swift in Sources */,
 				78CF341527252BBB006082F6 /* Favorite.swift in Sources */,
 				78CF341C27269E31006082F6 /* ListView.swift in Sources */,
 				781474632729805700D22F6B /* WebViewService.swift in Sources */,

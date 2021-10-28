@@ -1,16 +1,20 @@
 import SwiftUI
 
 struct Favorite: View {
+    
+    
     var body: some View {
         
         NavigationView {
             VStack {
-                Text("Favorites")
-                    .font(.title)
                 
-                ListView()
+                ListView(isFavoriteTab: true)
                 
             }
+            
+            .navigationTitle("Favorite")
+            .navigationBarTitleDisplayMode(.inline)
+            
         }
         
         

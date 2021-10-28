@@ -10,6 +10,7 @@ struct WebView: View {
             WebViewService(url: URL(string: "\(url)"))
                 .navigationBarTitle("News Source", displayMode: .inline)
                 
+                
               
     }
 }

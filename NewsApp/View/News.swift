@@ -1,16 +1,14 @@
 import SwiftUI
 
 struct News: View {
+	
 	@State var textField: String
-    
-    var body: some View {
+
+	var body: some View {
        
-		NavigationView{
+		NavigationView {
 		
 			VStack {
-				
-				Text("NEWS")
-					.font(.title)
 				
 				HStack {
 					SearchButton(search: textField)
@@ -21,13 +19,13 @@ struct News: View {
 				.frame(width: UIScreen.main.bounds.width * 0.8,
 					   height: UIScreen.main.bounds.height * 0.1)
 				
-				ListView()
+				ListView(isFavoriteTab: false)
 				
 			}
+			.navigationTitle("News")
+			.navigationBarTitleDisplayMode(.inline)
+			
 		}
-	
-	
-		
 	}
 }
 

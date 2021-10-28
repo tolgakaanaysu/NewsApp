@@ -18,9 +18,7 @@ struct Row: View {
                     .font(.body)
                     
                 
-                
             }
-           
                         
             KFImage(URL(string: rowData.urlToImage))
                 .resizable()
@@ -28,6 +26,8 @@ struct Row: View {
                        height: UIScreen.main.bounds.height * 0.1)
                 
         }
+        
+//Row height - width
         .frame(width: UIScreen.main.bounds.width * 0.8,
                height: UIScreen.main.bounds.height * 0.1)
         

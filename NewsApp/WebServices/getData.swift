@@ -2,8 +2,8 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class getData: ObservableObject {
-    @Published var datas = [ModelData]()
+final class getData: ObservableObject {
+    @Published var dataArray = [ModelData]()
  
     
     init(){
@@ -32,18 +32,19 @@ class getData: ObservableObject {
                     let urlImage = news["urlToImage"].stringValue
                     let content = news["content"].stringValue
                     let publishedAt = news["publishedAt"].stringValue
-                    
+                    let isFavorite = false
                     
                     
                     DispatchQueue.main.async {
-                        self.datas.append(ModelData(id: id,
+                        self.dataArray.append(ModelData(id: id,
                                                     author: author,
                                                     title: title,
                                                     description: description,
                                                     url: a_url,
                                                     urlToImage: urlImage,
                                                     publishedAt: publishedAt,
-                                                    content: content))
+                                                    content: content,
+                                                    isFavorite: isFavorite))
                     }
                 }
             }

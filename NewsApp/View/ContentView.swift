@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+
     
     var body: some View {
        
@@ -20,6 +21,6 @@ struct ContentView: View {
 
 struct TabItem_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Text("Content")
     }
 }
