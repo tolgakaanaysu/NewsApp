@@ -6,7 +6,7 @@ struct ContentView: View {
     var body: some View {
        
         TabView {
-            News(textField: "")
+            Home(textField: "")
                 .tabItem {
                     Label("News", systemImage: "house")
                         

@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct News: View {
+struct Home: View {
 	
 	@State var textField: String
 
@@ -31,6 +31,6 @@ struct News: View {
 
 struct News_Previews: PreviewProvider {
     static var previews: some View {
-        News(textField: "Tolga")
+        Home(textField: "Tolga")
     }
 }

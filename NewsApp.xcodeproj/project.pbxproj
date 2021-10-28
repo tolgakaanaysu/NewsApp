@@ -12,7 +12,7 @@
 		7825EFC2272AFE510070ACC6 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7825EFC1272AFE510070ACC6 /* FavoriteButton.swift */; };
 		7825EFC4272B03460070ACC6 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7825EFC3272B03460070ACC6 /* ShareButton.swift */; };
 		788C6B6B272427B300CFE0CB /* NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6A272427B300CFE0CB /* NewsApp.swift */; };
-		788C6B6D272427B300CFE0CB /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6C272427B300CFE0CB /* News.swift */; };
+		788C6B6D272427B300CFE0CB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C6B6C272427B300CFE0CB /* Home.swift */; };
 		788CBD9827273E59004D9AD6 /* getData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788CBD9727273E59004D9AD6 /* getData.swift */; };
 		78CF340B27251B92006082F6 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF340A27251B92006082F6 /* SearchButton.swift */; };
 		78CF340D27251BDE006082F6 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CF340C27251BDE006082F6 /* SearchTextField.swift */; };
@@ -36,7 +36,7 @@
 		787BC5A3272A036500C7A43F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		788C6B67272427B300CFE0CB /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C6B6A272427B300CFE0CB /* NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApp.swift; sourceTree = "<group>"; };
-		788C6B6C272427B300CFE0CB /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 1; };
+		788C6B6C272427B300CFE0CB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 1; };
 		788C6B71272427B700CFE0CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		788CBD9727273E59004D9AD6 /* getData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getData.swift; sourceTree = "<group>"; };
 		78CF340A27251B92006082F6 /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
@@ -135,10 +135,10 @@
 			children = (
 				78CF341127252810006082F6 /* ContentView.swift */,
 				78CF341427252BBB006082F6 /* Favorite.swift */,
-				788C6B6C272427B300CFE0CB /* News.swift */,
+				788C6B6C272427B300CFE0CB /* Home.swift */,
 				78CF341F2726D394006082F6 /* Details.swift */,
 				781474642729892E00D22F6B /* WebView.swift */,
-				78CF341027251F61006082F6 /* NewsViewHelper */,
+				78CF341027251F61006082F6 /* HomeViewHelper */,
 				78CF341827269CD0006082F6 /* ListViewHelper */,
 				7825EFC5272B03A50070ACC6 /* DetailsViewHelper */,
 			);
@@ -153,14 +153,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		78CF341027251F61006082F6 /* NewsViewHelper */ = {
+		78CF341027251F61006082F6 /* HomeViewHelper */ = {
 			isa = PBXGroup;
 			children = (
 				78CF340A27251B92006082F6 /* SearchButton.swift */,
 				78CF340C27251BDE006082F6 /* SearchTextField.swift */,
 				78CF340E27251C03006082F6 /* CancelButton.swift */,
 			);
-			path = NewsViewHelper;
+			path = HomeViewHelper;
 			sourceTree = "<group>";
 		};
 		78CF341827269CD0006082F6 /* ListViewHelper */ = {
@@ -286,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				788CBD9827273E59004D9AD6 /* getData.swift in Sources */,
-				788C6B6D272427B300CFE0CB /* News.swift in Sources */,
+				788C6B6D272427B300CFE0CB /* Home.swift in Sources */,
 				7825EFC4272B03460070ACC6 /* ShareButton.swift in Sources */,
 				78CF341A27269D25006082F6 /* Row.swift in Sources */,
 				7825EFC2272AFE510070ACC6 /* FavoriteButton.swift in Sources */,

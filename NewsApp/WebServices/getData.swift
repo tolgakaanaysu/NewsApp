@@ -3,12 +3,13 @@ import Alamofire
 import SwiftyJSON
 
 final class getData: ObservableObject {
+    
     @Published var dataArray = [ModelData]()
- 
+   
     
     init(){
         
-        let url = "https://newsapi.org/v2/everything?q=turkey&page=1&apiKey=ce9afcb6e0cd491baf808d4476cffb1d"
+        let url = "https://newsapi.org/v2/everything?q=World&page=1&apiKey=ce9afcb6e0cd491baf808d4476cffb1d"
         let session = URLSession(configuration: .default)
         
         session.dataTask(with: URL(string: url)!) { data, _, error in

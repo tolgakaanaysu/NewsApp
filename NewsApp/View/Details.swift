@@ -26,6 +26,7 @@ struct Details: View {
                     Spacer()
                     Image(systemName: "calendar")
                     Text(clickedDetails.publishedAt)
+						
                     
                 }
                 .padding(.bottom)
